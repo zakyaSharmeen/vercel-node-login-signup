@@ -33,8 +33,11 @@ function Home() {
 
   const fetchdProducts= async()=>{
     try{
+      // const url = "http://localhost:8080/products"
+      const url = "https://vercel-node-login-signup-9p3afgnil-zakya-sharmeens-projects.vercel.app/products"
+      // https://vercel-node-login-signup-9p3afgnil-zakya-sharmeens-projects.vercel.app/
 
-      const url = "http://localhost:8080/products"
+
       const headers =
        {
         headers: {

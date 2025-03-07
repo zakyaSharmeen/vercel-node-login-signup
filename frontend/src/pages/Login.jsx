@@ -31,7 +31,7 @@ function LogIn() {
     }
 
     try {
-      const url = "https://vercel-node-login-signup-9p3afgnil-zakya-sharmeens-projects.vercel.app/auth/login";
+      const url = "https://vercel-node-login-signup.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
